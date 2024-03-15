@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "blackjack-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/blackjack/BlackjackWebPart.js",
+          "manifest": "./src/webparts/blackjack/BlackjackWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BlackjackWebPartStrings": "lib/webparts/blackjack/loc/{locale}.js"
+  }
+}

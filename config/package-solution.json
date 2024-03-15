@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-blackjack-client-side-solution",
+    "id": "edb96d6c-c882-4196-aafe-60e542c277d1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-blackjack description"
+      },
+      "longDescription": {
+        "default": "spfx-blackjack description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-blackjack Feature",
+        "description": "The feature that activates elements of the spfx-blackjack solution.",
+        "id": "ff43b00e-1b68-4653-b522-1a96f2fb14c5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-blackjack.sppkg"
+  }
+}
